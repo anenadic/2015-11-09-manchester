@@ -1,40 +1,35 @@
 ---
 layout: workshop
 root: .
-title: Software and Data Carpentry's "Instructor Training" Workshop
-venue: UCL, London
-address: ISD Training Rooms B07-B08, UCL, 1-19 Torrington Place, London WC1E 7HB
+title: Software Carpentry Workshop for NHS Clinical Bioinformatics
+venue: University of Manchester
+address: University of Manchester
 latlng: 51.522582, -0.134352
-humandate: 8-9 October 2015
-humantime: 09:00-16:00
-startdate: 2015-10-08
-enddate: 2015-10-09
-instructor: ["Greg Wilson", "Aleksandra Pawlik"]
+humandate: 09-10 November 2015
+humantime: 09:00-17:00
+startdate: 2015-11-09
+enddate: 2015-10-10
+instructor: ["Aleksandra Pawlik", "Niall Beard", "Ian Dunlop"]
 helper: ["TBC"]
 contact: "a.nenadic@manchester.ac.uk"
-etherpad: https://etherpad.mozilla.org/XHs4AdIL8B
+etherpad: https://etherpad.mozilla.org/4EVq4hrQnB
 ---
 
 
 <h2>Workshop information</h2>
 
 <p>
-    This workshop covers the basics of educational psychology and instructional design,
-    and looks at how to use these ideas in both intensive workshops and regular classes.
+    Software Carpentry's mission is to help scientists and engineers become more productive by teaching them basic lab skills
+    for computing like program design, version control, data management, and task automation.
 </p>
 <p>
-    The workshop is a mix of lectures and hand-on lessons where you practice giving a
-    short lesson using approaches learned.
-</p>
-<p>
-    This is training for teaching, not technical training; you do not need any particular technical background,
-    and we will not be teaching that.
+    This workshop is a part of the 5-day MSc Clinical Bioinformatics programme. During the hands-on training sessions we will cover core skills such as effectively working with command line, structured software development and version control. The participants will be encouraged to help one another and to apply what they have learned to their own research problems.
 </p>
 
-<h4 class="jumbotron" style="padding: 10px; margin: 0px 0px 10px 0px;">
-    Register for the workshop
-    <a target="_blank" href="https://www.eventbrite.com/e/elixir-uk-software-data-carpentry-instructor-training-8-9-october-2015-registration-18186909536">via EventBrite</a>.
-</h4>
+<!--<h4 class="jumbotron" style="padding: 10px; margin: 0px 0px 10px 0px;">-->
+    <!--Register for the workshop-->
+    <!--<a target="_blank" href="https://www.eventbrite.com/e/elixir-uk-software-data-carpentry-instructor-training-8-9-october-2015-registration-18186909536">via EventBrite</a>.-->
+<!--</h4>-->
 
 <p>
     <strong>Date:</strong>
@@ -63,12 +58,12 @@ etherpad: https://etherpad.mozilla.org/XHs4AdIL8B
 -->
 <p>
     <strong>Location:</strong>
-    {{page.address}}.
+    {{page.address}}
     {% if page.latlng %}
-    Get directions with
-    <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-    or
-    <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+    <!--Get directions with-->
+    <!--<a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>-->
+    <!--or-->
+    <!--<a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.-->
     {% endif %}
 </p>
 
@@ -102,13 +97,8 @@ etherpad: https://etherpad.mozilla.org/XHs4AdIL8B
   Specify the requirements for the workshop, e.g. software that needs to be pre-installed, etc.
 -->
 <p>
-    <strong>Requirements:</strong> Participants should bring a laptop that is Internet connected and has a functioning browser.
-    If you have it, a specialized device for recording audio and video (mobile phones and laptops are OK) - throughout the two days,
-    we are going to record one another teaching in pairs or threes. It does not have to be high-quality,
-    but it should be good enough that you can understand what someone is saying.
-
-    <p><em>Also, make sure you read the
-    <a href="#preparation">Preparation</a> section below.</em></p>
+    <strong>Requirements:</strong> Participants will work on the Software Carpentry Virtual Machines provided by the University of Manchester.
+    They are also required to abide by Software Carpentry's Code of Conduct.
 </p>
 
 <!--
@@ -160,130 +150,124 @@ etherpad: https://etherpad.mozilla.org/XHs4AdIL8B
 
 <div class="row">
     <div class="col-md-6">
-        <h3>Day 1</h3>
+        <h3>Day 1, Monday 9th November</h3>
         <table class="table table-striped">
-            <tr>
-                <td>09:00</td>
-                <td>Welcome and overview; three stages of cognitive development; teaching performance</td>
-            </tr>
-            <tr>
-                <td>10:30</td>
-                <td>Coffee break</td>
-            </tr>
-            <tr>
-                <td>11:00</td>
-                <td>Three stages of cognitive development; teaching performance - continued</td>
-            </tr>
-            <tr>
-                <td>12:00</td>
-                <td>Lunch break</td>
-            </tr>
-            <tr>
-                <td>13:00</td>
-                <td>Formative vs. summative assessment; teach performance</td>
-            </tr>
-            <tr>
-                <td>14:30</td>
-                <td>Coffee break</td>
-            </tr>
-            <tr>
-                <td>15:00</td>
-                <td>Formative vs. summative assessment; teach performance - continued</td>
-            </tr>
-            <tr>
-                <td>16:00</td>
-                <td>Wrap-up</td>
-            </tr>
+            <tr> <td>9:00</td> <td>iPad induction</td> </tr>
+            <tr> <td>10:30</td> <td>Coffee break</td> </tr>
+            <tr> <td>11:00</td> <td>Introduction and learning objectives</td> </tr>
+            <tr> <td>12:00</td> <td>Lunch break</td> </tr>
+            <tr> <td>13:00</td> <td>Working effectively with command line - part 1</td> </tr>
+            <tr> <td>15:00</td> <td>Coffee break</td> </tr>
+            <tr> <td>15:30</td> <td>Working effectively with command line - part 2</td> </tr>
+            <tr> <td>16:45</td> <td>Wrap-up</td> </tr>
         </table>
     </div>
     <div class="col-md-6">
-        <h3>Day 2</h3>
+        <h3>Day 2, Tuesday 10th November</h3>
         <table class="table table-striped">
-            <tr>
-                <td>09:00</td>
-                <td>Recap; motivation and demotivation; teaching performance<br></td>
-            </tr>
-            <tr>
-                <td>10:30</td>
-                <td>Coffee break</td>
-            </tr>
-            <tr>
-                <td>11:00</td>
-                <td>Recap; motivation and demotivation; teaching performance - continued</td>
-            </tr>
-            <tr>
-                <td>12:00</td>
-                <td>Lunch break</td>
-            </tr>
-            <tr>
-                <td>13:00</td>
-                <td>Overview of existing materials; how to contribute; next steps</td>
-            </tr>
-            <tr>
-                <td>14:30</td>
-                <td>Coffee break</td>
-            </tr>
-            <tr>
-                <td>15:00</td>
-                <td>Overview of existing materials; how to contribute; next steps - continued</td>
-            </tr>
-            <tr>
-                <td>16:00</td>
-                <td>Wrap-up</td>
-            </tr>
+            <tr> <td>09:00</td> <td>Version control with Git - part 1</td> </tr>
+            <tr> <td>10:30</td> <td>Coffee break</td> </tr>
+            <tr> <td>11:00</td> <td>Version control with Git - part 2</td> </tr>
+            <tr> <td>12:00</td> <td>Lunch break</td> </tr>
+            <tr> <td>13:00</td> <td>Collaborative work using Git and GitHub</td> </tr>
+            <tr> <td>14:00</td> <td>Introduction to IPython Notebook</td> </tr>
+            <tr> <td>14:15</td> <td>Building programs with Python - part 1</td> </tr>
+            <tr> <td>15:00</td> <td>Coffee break</td> </tr>
+            <tr> <td>15:30</td> <td>Building programs with Python - part 2</td> </tr>
+            <tr> <td>16:45</td> <td>Wrap-up</td> </tr>
         </table>
     </div>
 </div>
 
-<h2 id="preparation" name="preparation">Preparation</h2>
-<ol>
-    <li>Please read <a target="_blank"
-                                      href="http://files.software-carpentry.org/training-course/2013/08/p34-porter.pdf">Porter et al's  "Success
-        in Introductory Programming: What Works?"</a>,
-        which is a good recent summary of results specific to teaching programming, and <a target="_blank"
-                                                                                           href="http://cacm.acm.org/blogs/blog-cacm/189498-top-10-myths-about-teaching-computer-science/fulltext">Mark
-            Guzdial's "Top 10 Myths About Teaching Computer Science"</a>,
-        which is a nice overview of things that <em>are not</em> true, but are widely believed.
-    </li>
+<hr>
 
-    <li>Please also pick up a copy of <a target="_blank"
-                                         href="http://www.amazon.com/How-Learning-Works-Research-Based-Jossey-Bass/dp/0470484101/">"How
-        Learning Works"</a>, which is the best summary
-        going of research in education. It is full of useful insights, and a lot of how we teach is based on the
-        findings
-        it reports.
+<h2>Syllabus</h2>
 
-    <li>Finally, please go to <a target="_blank" href=" http://software-carpentry.org/lessons.html">Software Carpentry's
-        lessons page</a> and browse the lessons to see what
-        is currently taught in Software Carpentry.
+<div class="row-fluid">
+    <div class="col-md-6">
+        <h3>The Unix Shell</h3>
+        <ul>
+            <li>Files and directories: <code>pwd</code>, <code>cd</code>, <code>ls</code>, <code>mkdir</code>, ...</li>
+            <li>History and tab completion</li>
+            <li>Pipes and redirection</li>
+            <li>Looping over files</li>
+            <li>Creating and running shell scripts</li>
+            <li>Finding things: <code>grep</code>, <code>find</code>, ...</li>
+            <li><a href="{{page.root}}/novice/ref/01-shell.html">Reference...</a></li>
+        </ul>
 
-    <li>If you are interested in doing more reading, <a target="_blank"
-                                                        href="http://www.amazon.com/Teaching-What-You-Dont-Know/dp/0674066170">Huston's
-        "Teaching What You Don't Know"</a> is a lot of fun - many will recognize themselves in these
-        stories. Past participants have also enjoyed <a target="_blank"
-                                                        href="http://www.amazon.com/Building-Better-Teacher-Teaching-Everyone/dp/0393081591">"Building
-            a Better Teacher"</a>, which is a well-written look at
-        why educational reforms in the past 50 years have mostly failed, and about what we should be doing instead.
-    </li>
-</ol>
+        <!--<div class="alert"><a href="https://github.com/anenadic/2014-11-10-manchester/blob/gh-pages/novice/shell/filesystem/users/nelle/shell-data.zip?raw=true">Download the sample datasets for the Unix Shell class</a></div>-->
 
+        <h4>Lessons</h4>
+        <ul>
+            <li><a href="{{page.root}}/novice/shell/00-intro.html">Lesson 1: Introduction</a></li>
+            <li><a href="{{page.root}}/novice/shell/01-filedir.html">Lesson 2: Files and Directories</a></li>
+            <li><a href="{{page.root}}/novice/shell/02-create.html">Lesson 3: Creating things</a></li>
+            <li><a href="{{page.root}}/novice/shell/03-pipefilter.html">Lesson 4: Pipes and Filters</a></li>
+            <li><a href="{{page.root}}/novice/shell/04-loop.html">Lesson 5: Loops</a></li>
+            <li><a href="{{page.root}}/novice/shell/05-script.html">Lesson 6: Shell scripts</a></li>
+            <li><a href="{{page.root}}/novice/shell/06-find.html">Lesson 7: Finding things</a></li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h3>Programming in Python</h3>
+        <ul>
+            <li>Using libraries</li>
+            <li>Working with arrays</li>
+            <li>Reading and plotting data</li>
+            <li>Creating and using functions</li>
+            <li>Loops and conditionals: <code>for</code>, <code>if</code>, <code>else</code>, ...</li>
+            <li>Defensive programming</li>
+            <li>Using Python from the command line</li>
+            <li><a href="{{page.root}}/novice/ref/03-python.html">Reference...</a></li>
+        </ul>
 
-<h2>Selected reference and training materials</h2>
+        <!--<div class="alert"><a href="https://github.com/anenadic/2014-11-10-manchester/blob/gh-pages/novice/python/python-data.zip?raw=true"> Download the sample datasets for the Python class</a></div>-->
 
-<ul>
-    <li><a target="_blank"
-                          href="http://files.software-carpentry.org/training-course/2013/08/p34-porter.pdf">Porter et al's "Success in
-        Introductory Programming: What Works?"</a></li>
-    <li><a target="_blank"
-           href="http://cacm.acm.org/blogs/blog-cacm/189498-top-10-myths-about-teaching-computer-science/fulltext">Mark
-        Guzdial's "Top 10 Myths About Teaching Computer Science"</a></li>
-    <li><a target="_blank"
-           href="http://www.amazon.com/How-Learning-Works-Research-Based-Jossey-Bass/dp/0470484101/">Susan A. Ambrose's "How
-        Learning Works"</a></li>
-    <li><a target="_blank"
-           href="http://www.amazon.com/Teaching-What-You-Dont-Know/dp/0674066170">Huston's
-        "Teaching What You Don't Know"</a></li>
-    <li><a target="_blank"
-           href="http://www.amazon.com/Building-Better-Teacher-Teaching-Everyone/dp/0393081591">Elisabeth Green's "Building
-        a Better Teacher"</a></li>
-</ul>
+        <h4>Lessons</h4>
+        <ul>
+            <li><a href="https://itunes.apple.com/app/id875056565">"Computable" app for IPython Notebook for IPads</a></li>
+            <li><a href="{{page.root}}/novice/python/01-numpy.html">Lesson 1: Introduction</a></li>
+            <li><a href="{{page.root}}/novice/python/02-func.html">Lesson 2: Functions</a></li>
+            <li><a href="{{page.root}}/novice/python/03-loop.html">Lesson 3: Loops</a></li>
+            <li><a href="{{page.root}}/novice/python/04-cond.html">Lesson 4: Branching and conditionals</a></li>
+            <li><a href="{{page.root}}/novice/python/06-cmdline-non-interactive.html">Lesson 5: Running your code from commandline</a></li>
+            <li><a href="{{page.root}}/novice/python/07-errors.html">Lesson 6: Errors and exceptions</a></li>
+
+            <li><a href="{{page.root}}/novice/python/08-testing.html">Lesson 7: Testing your code and quality assurance</a></li>
+            <li><a href="{{page.root}}/novice/python/xml/xml.html">Lesson 8: Working with XML files</a></li>
+
+        </ul>
+    </div>
+    <div>
+        <h3>Version Control with Git</h3>
+        <ul>
+            <li>Creating a repository</li>
+            <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
+            <li>Viewing changes: <code>status</code>, <code>diff</code>, ...</li>
+            <li>Ignoring files</li>
+            <li>Working on the web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
+            <li>Resolving conflicts</li>
+            <li>Open licenses</li>
+            <li>Where to host work, and why</li>
+        </ul>
+        <h4>Lessons</h4>
+        <ul>
+            <li><a href="{{page.root}}/novice/git/tutorial.html">Git tutorial</a></li>
+        </ul>
+    </div>
+</div>
+
+<hr/>
+
+<!--
+    Edit the setup instructions in _includes/setup.html to reflect your workshop.
+    (In particular, most workshops teach either Python or R, not both.)
+-->
+<h2>Setup</h2>
+
+<p>
+    The participants will be working on the Software Carpentry Virtual Machines setup up on the computers at the University's lab.
+</p>
+
+{% include setup.html %}
