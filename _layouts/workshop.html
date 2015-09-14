@@ -31,7 +31,13 @@
           {{page.title}}
         </h2>
         <h3>{{page.humandate}}{% if page.humantime %}, {{page.humantime}}{% endif %}</h3>
+        {% if page.latlng %}
+        <a target="_blank" href="//maps.google.com/maps?q={{page.latlng}}">
+        {% endif %}
         <h3>{{page.address}}</h3>
+        {% if page.latlng %}
+        </a>
+        {% endif %}
       </div>
     </div>
   </div>
