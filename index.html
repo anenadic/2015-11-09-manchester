@@ -3,8 +3,8 @@ layout: workshop
 root: .
 title: Software Carpentry Workshop for NHS Clinical Bioinformatics
 venue: University of Manchester
-address: University of Manchester
-latlng: 51.522582, -0.134352
+address: PC Cluster 2 bay D, Stopford Building, Oxford Road, Manchester, M13 9PT
+latlng: 53.464141, -2.230779
 humandate: 09-10 November 2015
 humantime: 09:00-17:00
 startdate: 2015-11-09
@@ -23,7 +23,7 @@ etherpad: https://etherpad.mozilla.org/4EVq4hrQnB
     for computing like program design, version control, data management, and task automation.
 </p>
 <p>
-    This workshop is a part of the 5-day MSc Clinical Bioinformatics programme. During the hands-on training sessions we will cover core skills such as effectively working with command line, structured software development and version control. The participants will be encouraged to help one another and to apply what they have learned to their own research problems.
+    This workshop is a part of the programming module MEDN68400 for the NHS Clinical Bioinfomratics course. During the hands-on training sessions we will cover core skills such as effectively working with command line, structured software development and version control. The participants will be encouraged to help one another and to apply what they have learned to their own research problems.
 </p>
 
 <!--<h4 class="jumbotron" style="padding: 10px; margin: 0px 0px 10px 0px;">-->
@@ -58,12 +58,10 @@ etherpad: https://etherpad.mozilla.org/4EVq4hrQnB
 -->
 <p>
     <strong>Location:</strong>
-    {{page.address}}
+    {{page.address}}.
     {% if page.latlng %}
-    <!--Get directions with-->
-    <!--<a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>-->
-    <!--or-->
-    <!--<a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.-->
+    Get directions with
+    <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
     {% endif %}
 </p>
 
